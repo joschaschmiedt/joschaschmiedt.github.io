@@ -74,8 +74,10 @@ section {
 
 footer{
   display: block;
+  padding-top: 20px;
   margin: 0 auto;
-  background-color: ghostwhite;
+  text-align: center;
+  font-size: x-small;
 }
 
 h1 {
