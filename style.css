@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  background-color: whitesmoke;
+}
+
+p {
+  /* max-width: 72ch; */
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: maroon;
+}
+
+nav {
+  display: block;
+  margin: 0 auto;
+}
+
+header {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+header > h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 46px;
+  text-align: left;
+}
+
+h2
+{
+  font-size:110%;
+}
+
+nav > a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  /* display: block; */
+  width:100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid lightgray;
+  /* padding: 0 auto; */
+  /* max-width: 800px; */
+}
+
+footer{
+  display: block;
+  margin: 0 auto;
+  background-color: ghostwhite;
+}
+
+h1 {
+  font-family: Oswald, sans-serif;
+  font-size: 46px;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+#title {
+  text-align: center;
+}
+
+.zeitstrahl {
+  font-size:90%;
+}
+
+.zeitstrahl td {
+  padding: 7px;
+  text-align: left;
+  vertical-align: top;
+
+}
+
+td.zeitstrahl-left {
+  border-right: 1px solid #ddd;
+  text-align: right;
+  min-width: 10ch;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
