@@ -3,12 +3,12 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.9" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>My Website</title>
+  <title>Joscha Schmiedt | Tools for Science</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans" />
   <link rel="stylesheet" href="./style.css" />
-  <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon" /> -->
 </head>
 
 <body>
@@ -16,34 +16,35 @@
 
   <header>
     <h1 id="title">Joscha Schmiedt &centerdot; Tools for Science</h1>
-    <nav style="text-align: center;">
+    <!-- <nav style="text-align: center;">
       <a href="#About">About</a> |
       <a href="#Technologies">Technologies</a> |
       <a href="#CV">CV</a> |
       <a href="#Contact">Contact</a>
-    </nav>
+    </nav> -->
   </header>
 
   <main>
 
-    <section id="About"  style="width: 80ch;">
+    <section id="About" style="width: 80ch;">
       <col-12">
         <h2>About Me</h2>
         <p>I'm Joscha, <strong>I develop software and hardware tools for scientific research</strong>.
           These tools are designed to facilitate experimental control, data acquisition,
           analysis, and management.
-        Currently, I work for the <a href="https://www.uni-bremen.de/fb2">Department of Biology and Chemistry</a> at
+          Currently, I work for the <a href="https://www.uni-bremen.de/fb2">Department of Biology and Chemistry</a> at
           <a href="https://www.uni-bremen.de">University of
-            Bremen</a>, Germany, as a <strong><a href="https://de-rse.org">research software and systems engineer (RSSE)</a></strong>.
+            Bremen</a>, Germany, as a <strong><a href="https://de-rse.org">research software and systems engineer
+              (RSSE)</a></strong>.
         </p>
-      </col-12>
+        </col-12>
     </section>
 
-    <section id="Technologies"  style="width: 80ch;">
+    <section id="Technologies" style="width: 80ch;">
       <h2>Technologies</h2>
       <p>
-        I have experience working with a wide range of technologies, from C++ and custom
-        electronics for interactive audio-visual stimulation to Python and MATLAB for data
+        I have experience working with a wide range of technologies, from <em>C++</em> and custom
+        electronics for interactive audio-visual stimulation to <em>Python</em> and <em>MATLAB</em> for data
         pipelines and high-performance computing.
 
         I have also worked with web and database systems to create comprehensive solutions
@@ -51,13 +52,44 @@
       </p>
     </section>
 
-    <section id="Projects"  style="width: 80ch;">
+    <section id="Projects" style="width: 80ch;">
       <h2>Projects</h2>
       <p>
         I have worked on a number of projects, ranging from small-scale data analysis
         pipelines to large-scale data management systems. Here are some of the projects I
         have worked on:
       </p>
+
+      <dl>
+        <dt>VStim</dt>
+        <dd>Complete 2D engine for interactive audio-visual behavioral experiments, written in <em>C++</em> using
+          <em>DirectX</em> and <em><abbr title="Microsoft Foundation Classes">MFC</abbr></em></dd>
+
+        <dt><a href="https://github.com/neuro-conda/neuro-conda">neuro-conda</a></dt>
+        <dd>A curated <em>Python</em> distribution for Neuroscience based on conda</dd>
+
+        <dt><a href="https://github.com/esi-neuroscience/ARCADE">ARCADE</a></dt>
+        <dd>ARCADE is a modular suite of <strong>A</strong>pplications for <strong>R</strong>eal-time
+          <strong>C</strong>ontrol of subject <strong>A</strong>ctions and stimulus <strong>D</strong>isplay, written in
+          <em>C++</em> and <em>MATLAB</em></dd>
+
+        <dt><a href="https://github.com/leibniz-zmt/files_metadataeditor">Metadata Editor for Research Data</a></dt>
+        <dd>A Nextcloud app to annotate research data, written in <em>PHP</em> and <em>JavaScript</em> using
+          <em>React</em> and JSONforms</dd>
+
+        <dt><a href="https://syncopy.readthedocs.io">Syncopy</a></dt>
+        <dd><em>Python</em> package for <strong>Sy</strong>stems <strong>N</strong>euroscience
+          <strong>Co</strong>mputing in <strong>Py</strong>thon aiming to bring easily scalable parallelization to data
+          Neuroscience analysis</dd>
+
+        <dt><a href="https://github.com/zero-noise-lab/DomeVR">DomeVR</a></dt>
+        <dd>Immersive dome projection for naturalistic behavioral experiments, written in <em>C++</em> using <em>Unreal
+            Engine 4</em></dd>
+
+        <dt><a href="https://www.esi-frankfurt.de">www.esi-frankfurt.de</a></dt>
+        <dd>Website development using <em><abbr title="Hypertext Markup Language">HTML</abbr></em>, <em><abbr title="Cascading Style Sheets">CSS</abbr></em> and <em>JavaScript</em> with <a
+            href="https://gohugo.io"><em>Hugo</em></a></dd>
+      </dl>
     </section>
 
     <section id="CV">
@@ -65,20 +97,23 @@
       <div class="row">
         <div class="col-6">
           <h3>Experience</h3>
-          <table class="zeitstrahl" >
+          <table class="zeitstrahl">
             <tr>
               <td class="zeitstrahl-left">Since 2022</td>
-              <td><abbr title="Research Software and Systems Engineer">RSSE</abbr> at <a href="https://uni-bremen.de">University of Bremen</a>
+              <td><abbr title="Research Software and Systems Engineer">RSSE</abbr> at <a
+                  href="https://uni-bremen.de">University of Bremen</a>
               </td>
             </tr>
             <tr>
               <td class="zeitstrahl-left">2021</td>
-              <td>Head of Scientific Data Services at <a href=https://www.leibniz-zt.de>Leibniz Centre for Tropical Marine
+              <td>Head of Scientific Data Services at <a href=https://www.leibniz-zt.de>Leibniz Centre for Tropical
+                  Marine
                   Research</a></td>
             </tr>
             <tr>
               <td class="zeitstrahl-left">2015</td>
-              <td><abbr title="Research Software and Systems Engineer">RSSE</abbr> at <a href="https://www.esi-frankfurt.de">Ernst Strüngmann
+              <td><abbr title="Research Software and Systems Engineer">RSSE</abbr> at <a
+                  href="https://www.esi-frankfurt.de">Ernst Strüngmann
                   Institute for Neuroscience</a> in Cooperation with Max Planck Society, Frankurt am Main</td>
             </tr>
             <tr>
@@ -91,23 +126,40 @@
 
         <div class="col-6">
           <h3>Education</h3>
-          <table class="zeitstrahl" >
+          <table class="zeitstrahl">
             <tr>
               <td class="zeitstrahl-left">2011-2015</td>
-              <td><abbr>Dr. rer. nat. (PhD)</abbr> at <a href="https://uni-frankfurt.de">Goethe University</a>, Frankurt am Main
+              <td><abbr>Dr. rer. nat. (PhD)</abbr> at <a href="https://uni-frankfurt.de">Goethe University</a>, Frankurt
+                am Main
               </td>
             </tr>
             <tr>
               <td class="zeitstrahl-left">2009-2011</td>
-              <td><abbr title="Master of Science">M.Sc.</abbr> Neuroscience</a> at <a href="https://uni-bremen.de">University of Bremen</a> and <a href="https://www.cardiff.ac.uk">Cardiff University</a></td>
+              <td><abbr title="Master of Science">M.Sc.</abbr> Neuroscience</a> at <a
+                  href="https://uni-bremen.de">University of Bremen</a> and <a href="https://www.cardiff.ac.uk">Cardiff
+                  University</a></td>
             </tr>
             <tr>
               <td class="zeitstrahl-left">2005-2008</td>
-              <td><abbr title="Bachelor of Science">B.Sc.</abbr> Physics</a> at <a href="https://uni-bremen.de">University of Bremen</a></td>
+              <td><abbr title="Bachelor of Science">B.Sc.</abbr> Physics</a> at <a
+                  href="https://uni-bremen.de">University of Bremen</a></td>
             </tr>
           </table>
         </div>
-        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="Links">
+      <div style="margin:auto; padding:15px; display: block; text-align:center">
+
+        <a href="https://github.com/joschaschmiedt"><img src="img/github-mark.png" alt="GitHub Profile"
+            style="width:24px; height:24px";display:inline-block></a>
+        <a href="https://www.linkedin.com/in/joscha-tapani-schmiedt-3a800aa1/"><img src="img/linked-in.png"
+            alt="LinkedIn Profile" style="width:24px; height:24px";display:inline-block></a>
+        <a href="https://orcid.org/0000-0001-6233-1866"><img src="img/ORCIDiD_icon32x32.png" alt="ORCID"
+            style="width:24px; height:24px";display:inline-block></a>
+
       </div>
     </section>
 

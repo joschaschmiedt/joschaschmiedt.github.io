@@ -8,6 +8,13 @@ body {
   background-color: whitesmoke;
 }
 
+em 
+{
+  font-weight: lighter;
+  font-family: Oswald, sans-serif;
+  font-style: normal;
+}
+
 p {
   /* max-width: 72ch; */
 }
