@@ -8,15 +8,23 @@ body {
   background-color: whitesmoke;
 }
 
-em 
-{
+em {
   font-weight: lighter;
   font-family: Oswald, sans-serif;
   font-style: normal;
 }
 
-p {
-  /* max-width: 72ch; */
+span.line {
+  display: inline-block;
+}
+
+span.only-large {
+  display: none;
+}
+@media (min-width: 594px) {
+  span.only-large {
+    display: inline;
+  }
 }
 
 a {
@@ -45,9 +53,8 @@ header > h1 {
   text-align: left;
 }
 
-h2
-{
-  font-size:110%;
+h2 {
+  font-size: 110%;
 }
 
 nav > a {
@@ -64,7 +71,7 @@ main {
 
 section {
   /* display: block; */
-  width:100%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   border-bottom: 1px solid lightgray;
@@ -72,7 +79,7 @@ section {
   /* max-width: 800px; */
 }
 
-footer{
+footer {
   display: block;
   padding-top: 20px;
   margin: 0 auto;
@@ -91,18 +98,42 @@ h1 {
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
 }
 
 #title {
@@ -110,14 +141,13 @@ h1 {
 }
 
 .zeitstrahl {
-  font-size:91%;
+  font-size: 91%;
 }
 
 .zeitstrahl td {
   padding: 7px;
   text-align: left;
   vertical-align: top;
-
 }
 
 td.zeitstrahl-left {
